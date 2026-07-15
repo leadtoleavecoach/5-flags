@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lead to Leave — The 5 Leadership Flags Your Managers Aren't Ready to Lead</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{ --green:#004225; --copper:#B87333; --cream:#F6F3EC; --ink:#2B2B27; --line:#E0D8C6; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:#e9e4d6; font-family:'Montserrat',sans-serif; color:var(--ink); line-height:1.65; }
+  .serif{ font-family:'Playfair Display',serif; }
+  .kick{ font-size:12px; letter-spacing:3px; text-transform:uppercase; color:var(--copper); font-weight:700; }
+  .sheet{ max-width:820px; margin:32px auto; background:var(--cream); box-shadow:0 10px 40px rgba(0,0,0,.16); }
+
+  /* Cover */
+  .cover{ position:relative; padding:54px 64px 150px; text-align:center; }
+  .cover img.logo{ width:150px; height:auto; margin:0 auto 6px; display:block; }
+  .wm{ font-family:'Playfair Display',serif; font-weight:800; font-size:30px; letter-spacing:8px; color:var(--green); }
+  .wm .to{ color:var(--copper); }
+  .tag{ font-size:11px; letter-spacing:4px; text-transform:uppercase; color:var(--green); margin-top:10px; }
+  .tag .rule{ display:inline-block; width:26px; height:1.5px; background:var(--copper); vertical-align:middle; margin:0 12px; }
+  .cover .free{ margin-top:56px; }
+  .cover h1{ font-family:'Playfair Display',serif; font-weight:800; color:var(--green); font-size:46px; line-height:1.08; margin:16px auto 0; max-width:600px; }
+  .cover .sub{ max-width:440px; margin:20px auto 0; font-size:17px; color:#4a4a42; }
+  .copper-line{ width:66px; height:3px; background:var(--copper); margin:28px auto 0; }
+  .cover .band{ position:absolute; left:0; right:0; bottom:0; height:120px; background:var(--green); display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  .band .bwm{ font-family:'Playfair Display',serif; color:#fff; letter-spacing:3px; font-size:18px; }
+  .band .bwm .to{ color:#C89B6A; }
+  .band .bs{ font-size:10px; letter-spacing:2px; text-transform:uppercase; color:#C9D6CE; margin-top:5px; }
+
+  /* Body */
+  .body{ padding:46px 64px 60px; }
+  .body .kick{ text-align:left; }
+  .body h2{ font-family:'Playfair Display',serif; font-weight:700; color:var(--green); font-size:30px; margin:4px 0 18px; }
+  .intro{ background:#fff; border-left:4px solid var(--copper); padding:18px 22px; font-size:16px; border-radius:0 6px 6px 0; }
+  .intro strong{ color:var(--green); }
+
+  .sign{ padding:26px 0; border-bottom:1px solid var(--line); }
+  .sign:last-of-type{ border-bottom:none; }
+  .sign-head{ display:flex; align-items:flex-start; gap:20px; }
+  .sign-num{ font-family:'Playfair Display',serif; font-weight:800; font-size:44px; color:var(--copper); line-height:.9; width:52px; flex:0 0 52px; }
+  .sign-k{ font-size:10.5px; letter-spacing:2.5px; text-transform:uppercase; color:var(--copper); font-weight:700; }
+  .sign-t{ font-family:'Playfair Display',serif; font-weight:700; font-size:23px; color:var(--green); line-height:1.15; margin-top:3px; }
+  .sign-body{ margin:14px 0 0 72px; }
+  .sign-body p{ margin:0 0 10px; font-size:15.5px; }
+  .lab{ font-weight:700; color:var(--green); }
+  .fix{ font-weight:700; color:var(--copper); }
+
+  .cta{ background:var(--green); color:var(--cream); border-radius:8px; padding:38px 40px; text-align:center; margin-top:34px; }
+  .cta .kick{ color:var(--copper); }
+  .cta h3{ font-family:'Playfair Display',serif; font-weight:700; font-size:27px; color:#fff; margin:10px 0 8px; }
+  .cta p{ max-width:480px; margin:0 auto 22px; color:#E7EDE9; font-size:15.5px; }
+  .btn{ display:inline-block; background:var(--copper); color:#fff; font-weight:700; letter-spacing:1.2px; text-transform:uppercase; font-size:13px; padding:14px 30px; border-radius:5px; text-decoration:none; }
+  .cta .sig{ margin-top:20px; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#C9D6CE; }
+  .cta .linkline{ margin-top:12px; font-size:12px; color:#C9D6CE; word-break:break-all; }
+  .cta-photo{ width:118px; height:118px; border-radius:50%; display:block; margin:0 auto 16px; }
+
+  @media print{
+    body{ background:#fff; } .sheet{ box-shadow:none; margin:0; max-width:none; }
+    .cover{ page-break-after:always; } .cta{ page-break-inside:avoid; }
+  }
+  @media (max-width:640px){
+    .cover,.body{ padding-left:26px; padding-right:26px; } .cover h1{ font-size:34px; }
+    .sign-body{ margin-left:0; } .sign-head{ gap:12px; }
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <!-- COVER -->
+  <section class="cover">
+    <img class="logo" src="ltl-logo.png" alt="Lead to Leave logo">
+    <div class="wm">LEAD <span class="to">TO</span> LEAVE</div>
+    <div class="tag"><span class="rule"></span>Built to thrive beyond you.<span class="rule"></span></div>
+
+    <div class="free kick">Free Guide for Business Owners</div>
+    <h1>The 5 Leadership Flags Your Managers Aren&rsquo;t Ready to Lead</h1>
+    <div class="sub">And the first move to fix each one &mdash; so your business can finally run without you.</div>
+    <div class="copper-line"></div>
+
+    <div class="band">
+      <div class="bwm">LEAD <span class="to">TO</span> LEAVE</div>
+      <div class="bs">Leadership systems for owners who want to step back</div>
+    </div>
+  </section>
+
+  <!-- BODY -->
+  <section class="body">
+    <div style="text-align:right;margin-bottom:10px"><a href="Lead-to-Leave-5-Leadership-Flags.pdf" download style="display:inline-block;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--copper);border:1px solid var(--copper);border-radius:5px;padding:7px 14px;text-decoration:none;">&#8595; Download PDF version</a></div>
+    <div class="kick">The Leadership Gap</div>
+    <h2>Why your business still runs through you</h2>
+    <div class="intro">
+      If you&rsquo;re the only one who can really make a decision in your business, you don&rsquo;t have a
+      staffing problem &mdash; you have a <strong>leadership gap</strong>. The good news: it&rsquo;s fixable, and
+      it&rsquo;s almost always one of five specific things. Here&rsquo;s how to spot each one &mdash; and the
+      first move to close it.
+    </div>
+
+    <div class="sign">
+      <div class="sign-head"><div class="sign-num">1</div>
+        <div><div class="sign-k">Flag One</div><div class="sign-t">Everything routes through you</div></div></div>
+      <div class="sign-body">
+        <p><span class="lab">The Flag:</span> Your team texts you for answers they could figure out themselves. You&rsquo;re the bottleneck, and nothing moves until you weigh in.</p>
+        <p><span class="fix">The Rep:</span> Before you answer, ask &ldquo;What would <em>you</em> do?&rdquo; Make them bring a solution, not just a problem. You&rsquo;re training decision-making one question at a time.</p>
+      </div>
+    </div>
+
+    <div class="sign">
+      <div class="sign-head"><div class="sign-num">2</div>
+        <div><div class="sign-k">Flag Two</div><div class="sign-t">Your managers manage tasks, not people</div></div></div>
+      <div class="sign-body">
+        <p><span class="lab">The Flag:</span> They assign work and check boxes, but they don&rsquo;t coach, develop, or have the hard conversations. They were promoted for being great at the job &mdash; not for leading.</p>
+        <p><span class="fix">The Rep:</span> Give each manager <em>one</em> person to actively develop this month. Leadership is grown through reps, not titles.</p>
+      </div>
+    </div>
+
+    <div class="sign">
+      <div class="sign-head"><div class="sign-num">3</div>
+        <div><div class="sign-k">Flag Three</div><div class="sign-t">Nobody owns the outcome</div></div></div>
+      <div class="sign-body">
+        <p><span class="lab">The Flag:</span> When something goes wrong, you hear excuses and finger-pointing instead of ownership.</p>
+        <p><span class="fix">The Rep:</span> Assign clear owners to outcomes, not just tasks. Replace &ldquo;whose fault was it?&rdquo; with &ldquo;what will you do differently?&rdquo; Watch the culture shift.</p>
+      </div>
+    </div>
+
+    <div class="sign">
+      <div class="sign-head"><div class="sign-num">4</div>
+        <div><div class="sign-k">Flag Four</div><div class="sign-t">Feedback only comes from you</div></div></div>
+      <div class="sign-body">
+        <p><span class="lab">The Flag:</span> You&rsquo;re the only one who corrects, praises, or redirects. The whole team waits for your read on everything.</p>
+        <p><span class="fix">The Rep:</span> Teach your managers one simple feedback script they can use daily &mdash; so course-correction happens without you in the room.</p>
+      </div>
+    </div>
+
+    <div class="sign">
+      <div class="sign-head"><div class="sign-num">5</div>
+        <div><div class="sign-k">Flag Five</div><div class="sign-t">The team freezes when you&rsquo;re gone</div></div></div>
+      <div class="sign-body">
+        <p><span class="lab">The Flag:</span> Vacations aren&rsquo;t restful because things stall or break the moment you step away.</p>
+        <p><span class="fix">The Rep:</span> Run a &ldquo;what would you do if I were unreachable?&rdquo; drill. Whatever they can&rsquo;t answer is your leadership to-do list.</p>
+      </div>
+    </div>
+
+    <div class="cta">
+      <img class="cta-photo" src="bryant-headshot.png" alt="Bryant — Lead to Leave">
+      <div class="kick">Your Next Step</div>
+      <h3>See exactly which flag is hurting you most</h3>
+      <p>Recognize more than one of these? That&rsquo;s normal &mdash; and it&rsquo;s exactly what the Lead to Leave
+      system was built to fix. Book a free 30-minute Leadership Session with me and I&rsquo;ll tell you where your
+      managers are getting stuck and what to fix first.</p>
+      <a class="btn" href="https://app.paperbell.com/checkout/bookings/new?package_id=225278">Book your free Leadership Session &rarr;</a>
+      <div class="linkline">app.paperbell.com/checkout/bookings/new?package_id=225278</div>
+      <div class="sig">Bryant &nbsp;&middot;&nbsp; Lead to Leave &nbsp;&middot;&nbsp; Built to thrive beyond you.</div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
